@@ -32,7 +32,9 @@
         android:layout_height="wrap_content"
         android:hint="Digite seu Telefone"
         android:inputType="number"
-        app:layout_constraintTop_toBottomOf="@id/tvEmail"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvEmail" />
 
     <EditText
         android:id="@+id/edtEmail"

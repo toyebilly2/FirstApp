@@ -6,19 +6,27 @@
     app:startDestination="@id/homeFragment">
 
     <fragment
-        android:id="@+id/calculoFragment"
-        android:name="com.rebeka.firstapp.view.CalculoFragment"
-        android:label="fragment_calculo"
-        tools:layout="@layout/fragment_calculo" />
+        android:id="@+id/pessoaFragment"
+        android:name="com.rebeka.firstapp.view.PessoaFragment"
+        android:label="Pessoa"
+        tools:layout="@layout/fragment_pessoa" />
+
     <fragment
-        android:id="@+id/verificarFragment2"
+        android:id="@+id/verificarFragment"
         android:name="com.rebeka.firstapp.view.VerificarFragment"
         android:label="fragment_verificar"
         tools:layout="@layout/fragment_verificar" />
+
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.rebeka.firstapp.view.HomeFragment"
-        android:label="fragment_home"
+        android:label="First App"
         tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/allPessoaFragment"
+        android:name="com.rebeka.firstapp.view.AllPessoaFragment"
+        android:label="Pessoas"
+        tools:layout="@layout/fragment_all_pessoa" />
 
 </navigation>
